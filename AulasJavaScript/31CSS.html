@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor Classe</title>
+    <!--JS-->
+    <script>
+
+        function acao() {
+            var texto = document.getElementsByTagName("h1")[0];
+
+            texto.style.color = "green";
+            texto.style.fontSize = "100px";
+
+            texto.innerHTML = "Curso de JavaScript";
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <h1>JavaScript</h1>
+    <button onclick="acao()">Clique aqui</button>
+
+</body>
+
+</html>
